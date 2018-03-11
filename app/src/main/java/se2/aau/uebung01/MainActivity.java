@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                outputView.setText("Eingabetext ist zu kurz");
             }
         }
+        outputView.setVisibility(View.VISIBLE);
 
     }
     public static boolean isPalindrome(String str){
